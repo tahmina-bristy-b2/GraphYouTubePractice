@@ -45,6 +45,17 @@ dependencies:
   whatsapp_unilink: ^2.1.0
   syncfusion_flutter_charts: ^20.3.61
   url_launcher: ^6.1.10
+  firebase_auth: ^4.3.0
+  firebase_storage: ^11.1.0
+  firebase_core: ^2.9.0
+  gallery_saver: ^2.3.2
+  path_provider: ^2.1.0
+  dio: ^5.3.2
+  file_picker: ^5.2.7
+  translator: ^0.1.7
+
+
+  
   
   
   

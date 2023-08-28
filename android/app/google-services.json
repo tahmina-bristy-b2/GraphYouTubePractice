@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "268448756058",
+    "project_id": "fir-storage-2023",
+    "storage_bucket": "fir-storage-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268448756058:android:1f22cfa72077a386548363",
+        "android_client_info": {
+          "package_name": "com.example.graphpractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268448756058-5o54c0rlpb6eum1f4vsv4koe0o34nduo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCINier92vRgITgoY1XxDwkxOO3AGkY-H4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268448756058-5o54c0rlpb6eum1f4vsv4koe0o34nduo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
