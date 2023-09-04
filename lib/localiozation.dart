@@ -15,6 +15,8 @@ class _ArabicLinemanagementState extends State<ArabicLinemanagement> {
 
   String languageCodes = '';
   final RegExp arabic = RegExp(r'^[\u0621-\u064A]+');
+  final RegExp english = RegExp(r'^[a-zA-Z]+');
+  final RegExp numeric = RegExp(r'^[0-9a-zA-Z]');
 
   @override
   Widget build(BuildContext context) {
@@ -31,9 +33,10 @@ class _ArabicLinemanagementState extends State<ArabicLinemanagement> {
                   Expanded(
                     child: Text(
                       t,
-                      textAlign: arabic.hasMatch(t) == true
-                          ? TextAlign.right
-                          : TextAlign.start,
+                      textAlign:
+                          arabic.hasMatch(t) || numeric.hasMatch(t) == true
+                              ? TextAlign.right
+                              : TextAlign.start,
                     ),
                   )
                 ],
